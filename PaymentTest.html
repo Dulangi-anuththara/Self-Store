@@ -2,15 +2,15 @@
 
 <body>
     <form action="PaymentTest.php" method="POST">
-        Customer ID <input type="text">
-        Date : <input type="date">
+        Customer ID <input type="text" name="custID">
+        Date : <input type="date" name="date">
         Unit : <select name="unit">
             <option value="A">A</option>
             <option value="B">B</option>
             <option value="C">C</option>
             <option value="D">D</option>
         </select>
-        Storage ID :<input type="number" min="1" max="31">
+        Storage ID :<input type="number" min="1" max="31" name="unitID">
 
         <input type="submit" value="Search">
     </form>
